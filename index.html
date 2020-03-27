@@ -17,6 +17,34 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/style.css">
+  <!-- Start of Async Drift Code -->
+<script>
+"use strict";
+
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('mw3u3wd637mg');
+</script>
+<!-- End of Async Drift Code -->
 </head>
 
 <body>
@@ -41,7 +69,7 @@
                 <div class="col">
                     <!-- Brand Logo -->
                     <div class="brand-logo">
-                        <a href=""><img src="image/main-logo.png" alt="" /></a>
+                        <a href=""><img src="image/logo.png" alt="" /></a>
                     </div>
                 </div>
                 <!-- Menu Block -->
@@ -53,43 +81,43 @@
                                 <ul class="menu-dropdown">
                                     <li class="single-item">
                                         <a href="../s01/index.html">
-                                        <h3>Mobile Application</h3> 
+                                        <h3>Demo 1</h3> 
                                         <p>Best for Mobile App Presentation</p>
                                         </a>
                                     </li>
                                     <li class="single-item">
                                         <a href="../s02/index.html">
-                                            <h3>Web Application</h3>
+                                            <h3>Demo 2</h3>
                                             <p>Best for Web Application</p>
                                         </a> 
                                     </li>
                                     <li class="single-item">
                                         <a href="../s03/index.html">
-                                        <h3>SaaS Application</h3>
+                                        <h3>Demo 3</h3>
                                         <p>Best for SaaS Application</p>
                                     </a> 
                                     </li>
                                     <li class="single-item">
                                         <a href="../s04/index.html">
-                                                <h3>SaaS Subscription</h3>
+                                                <h3>Demo 4</h3>
                                             <p>Best for SaaS Subscription</p>
                                         </a> 
                                     </li>
                                     <li class="single-item">
                                         <a href="../s05/index.html">
-                                            <h3>Digital Service</h3>
+                                            <h3>Demo 5</h3>
                                             <p>Best for Digital Services</p>
                                         </a>
                                     </li>
                                     <li class="single-item">
                                         <a href="../s06/index.html">
-                                            <h3>Online Course</h3>
+                                            <h3>Demo 6</h3>
                                             <p>Best for Online Course</p>
                                         </a>
                                     </li>
                                     <li class="single-item">
                                         <a href="../s07/index.html">
-                                            <h3>Software</h3>
+                                            <h3>Demo 7</h3>
                                             <p>Best for Software & Application</p>
                                         </a>
                                     </li>
@@ -97,7 +125,7 @@
                             </li>
                             <li class="menu-item"><a href="#">Pricing</a></li>
 
-                            <li class="menu-item"><a href="#">Support</a></li>
+                            <li class="menu-item"><a href="#">Contact</a></li>
                         </ul>
                     </div>
                     <div class="mobile-menu"></div>
@@ -106,8 +134,7 @@
                 <!-- Button Block -->
                 <div class="col">
                     <div class="header-btns">
-                        <a href="#" class="btn btn--transparent ">Sign in</a>
-                        <a href="#" class="btn btn--primary hvr-shine">Start free trial</a>
+                        <a href="#" class="btn btn--primary hvr-shine">Free 3D Demo Model</a>
                     </div>
                 </div>
             </div>
@@ -186,8 +213,7 @@
             <!-- Header buttons start -->
             <div class="header-btns offcanvas">
                 <div class="header-btns">
-                    <a href="#" class="btn btn-primary--opacity hvr-bounce-to-right">Sign in</a>
-                    <a href="#" class="btn btn--primary hvr-shine">Start free trial</a>
+                    <a href="#" class="btn btn--primary hvr-shine">Get Free Demo Model</a>
                 </div>
             </div>
             <!-- Header buttons end -->
@@ -201,11 +227,11 @@
             <div class="row justify-content-center">
                 <div class="col-xl-7 col-lg-8 col-md-10">
                     <div class="hero-content">
-                        <h1 class="title h2">Manage your team, faster!</h1>
-                        <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
+                        <h1 class="title h2">Visualise products from the comfort of your home!</h1>
+                        <p>Increase your e-commerce conversions through 3D & Augmented Reality product visualisations.</p>
                         <div class="hero-btn">
-                            <a href="#" class="btn btn--primary hvr-shine">Start free 14 days trial</a>
-                            <span class="text--info">No credit card required</span>
+                            <a href="#" class="btn btn--primary hvr-shine">Free 3D Demo Model</a>
+                            <span class="text--info">A Free 3D Visiualisation of a product of your choice<br>No credit card required</span>
                         </div>
                     </div>
                 </div>
@@ -230,7 +256,7 @@
                             <span class="outer-circle circle-bg-1"></span>
                         </div>
                         <div class="widget__body divider--right">
-                            <h3 class="widget__heading h6">Single Platform</h3>
+                            <h3 class="widget__heading h6">Improve SEO</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -242,7 +268,7 @@
                             <span class="outer-circle circle-bg-2"></span>
                         </div>
                         <div class="widget__body divider--right">
-                            <h3 class="widget__heading h6">Faster Communication</h3>
+                            <h3 class="widget__heading h6">Increase Conversions</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -254,7 +280,7 @@
                             <span class="outer-circle circle-bg-3"></span>
                         </div>
                         <div class="widget__body">
-                            <h3 class="widget__heading h6">Everything in One Place</h3>
+                            <h3 class="widget__heading h6">Join the Future</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -283,7 +309,7 @@
                     <div class="content-section-text">
                         <h2 class="title">Explore the things <br class="d-none d-xs-block"> you never saw.</h2>
                         <p>Create custom landing pages with Berlin that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
-                        <a href="#" class="btn btn-primary--opacity hvr-bounce-to-right">Start free 14 days trial</a>
+                        <a href="#" class="btn btn-primary--opacity hvr-bounce-to-right">Gat Free 3D Demo Model</a>
                     </div>
                 </div>
             </div>
@@ -310,7 +336,7 @@
                     <div class="content-section-text">
                         <h2 class="title">Build better team work <br class="d-none d-xs-block">faster and better!</h2>
                         <p>Create custom landing pages with Berlin that convert more visitors than any website. With lots of unique blocks, you can easily build a page without coding.</p>
-                        <a href="#" class="btn btn-primary--opacity hvr-bounce-to-right">Start free 14 days trial</a>
+                        <a href="#" class="btn btn-primary--opacity hvr-bounce-to-right">Get Free 3D Model</a>
                     </div>
                 </div>
 
@@ -527,7 +553,7 @@
                     <div class="cta-wrapper">
                         <h3 class="title mt--20" data-aos="fade-right" data-aos-duration='1500' data-aos-once="true">Manage your team in one place</h3>
                         <div class="button" data-aos="fade-left" data-aos-duration='1500' data-aos-once="true">
-                            <a href="" class="btn btn--primary mt--20  hvr-shine">Start free 14 days trial</a>
+                            <a href="" class="btn btn--primary mt--20  hvr-shine">Get Free 3D Model</a>
                         </div>
                     </div>
                 </div>
@@ -607,7 +633,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-5 order-md-1  mb--10">
-                        <p class="mb-0">© 2019 Grayic. All rights reserved</p>
+                        <p class="mb-0">© 2020 Charpstar AB. All rights reserved</p>
                     </div>
                     
                 </div>
