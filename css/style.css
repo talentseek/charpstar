@@ -6,6 +6,11 @@
   padding-bottom: 50px;
 }
 
+.model-viewer-wrapper {
+  max-width:800px;
+  margin: auto;
+}
+
 @media (min-width: 768px) {
   .section-padding-bottom {
     padding-bottom: 140px;

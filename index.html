@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Charpstar</title>
   <!-- Plugins CSS -->
+  <link href="https://cdn.jsdelivr.net/gh/charpstar/InPlace/InPlaceViewer.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="./plugins/fancybox-master/jquery.fancybox.min.css">
   <link rel="stylesheet" href="./plugins/aos-animation/aos.css">
@@ -18,6 +19,9 @@
   <link rel="stylesheet" href="./css/settings.css">
   <link rel="stylesheet" href="./css/style.css">
   <!-- Start of Async Drift Code -->
+  <link rel="icon" href="https://www.charpstar.se/wp-content/uploads/2017/10/Charpstar-logo-only-Gold.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://www.charpstar.se/wp-content/uploads/2017/10/Charpstar-logo-only-Gold.png" />
+<meta name="msapplication-TileImage" content="https://www.charpstar.se/wp-content/uploads/2017/10/Charpstar-logo-only-Gold.png" />
 <script>
 "use strict";
 
@@ -45,6 +49,9 @@ drift.SNIPPET_VERSION = '0.3.1';
 drift.load('mw3u3wd637mg');
 </script>
 <!-- End of Async Drift Code -->
+
+<script type="module" src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/model-viewer.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/model-viewer-legacy-min.js"></script>
 </head>
 
 <body>
@@ -69,7 +76,7 @@ drift.load('mw3u3wd637mg');
                 <div class="col">
                     <!-- Brand Logo -->
                     <div class="brand-logo">
-                        <a href=""><img src="image/logo.png" alt="" /></a>
+                        <a href=""><img src="image/transparent.png" alt="" /></a>
                     </div>
                 </div>
 
@@ -148,15 +155,36 @@ drift.load('mw3u3wd637mg');
                     </div>
                 </div>
                 <div class="col-12">
-                    <div class="dashboard-img" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true">
+                    <!-- <div class="dashboard-img" data-aos="fade-up" data-aos-duration='1500' data-aos-once="true"> -->
 
-                       <img src="./image/dashboard-analytics.png" alt=""> 
+                      <!-- <img src="./image/dashboard-analytics.png" alt="">  --> 
+
+<div class="model-viewer-wrapper">
+<model-viewer poster="https://charpstar.se/InPlace/Freedom/coco.jpg" src="https://charpstar.se/InPlace/Freedom/coco1.glb">
+</model-viewer>
+</div>
+<script src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/InPlaceViewer.js"></script>
+<template id="model-viewer-container-template">
+<div class="inplace-model-viewer"><div class="inplace-model-viewer__controls"><div class="inplace-model-viewer__control-area">
+<ul class="model-viewer-controls-unordered-list">
+<li class="model-viewer-controls-list-item"><button data-tooltip="Zoom in" class="inplace-model-viewer__btn inplace-model-viewer__zoom-in-btn"><i class="icon-zoom-in material-icons">zoom_in</i></button></li>
+<li class="model-viewer-controls-list-item"><button data-tooltip="Zoom out" class="inplace-model-viewer__btn inplace-model-viewer__zoom-out-btn"><i class="icon-zoom-out material-icons">zoom_out</i></button></li>
+<li class="model-viewer-controls-list-item"><button data-tooltip="FullScreen / Exit FullScreen" class="inplace-model-viewer__btn inplace-model-viewer__fullscreen-btn"><i class="icon-enter-fullscreen material-icons">fullscreen</i><i aria-hidden="true" class="icon-exit-fullscreen material-icons">fullscreen_exit</i></button></li>
+<li class="model-viewer-controls-list-item"><button data-tooltip="Exit / Enter 3D View" class="inplace-model-viewer__btn inplace-model-viewer__exitViewer-btn"><i class="icon-exit-3dViewer material-icons">close</i><i aria-hidden="true" class="icon-enter-3dViewer material-icons">3d_rotation</i></button></li>
+</ul>
+</div></div></div>
+</template>
+
+
                     </div>
                 </div>
             </div>
         </div>
        <!-- <div class="hero-shape"><img src="image/hero-shape.png" alt=""></div>  -->
     </section>
+
+
+
 
     <!-- Feature Section -->
     <div class="feature-section">
@@ -169,7 +197,7 @@ drift.load('mw3u3wd637mg');
                             <span class="outer-circle circle-bg-1"></span>
                         </div>
                         <div class="widget__body divider--right">
-                            <h3 class="widget__heading h6">Conversion Rate</h3>
+                            <h3 class="widget__heading h6">200% Conversion Rate</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -181,7 +209,7 @@ drift.load('mw3u3wd637mg');
                             <span class="outer-circle circle-bg-2"></span>
                         </div>
                         <div class="widget__body divider--right">
-                            <h3 class="widget__heading h6">Engagement Rate</h3>
+                            <h3 class="widget__heading h6">400% Engagement Rate</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -193,7 +221,7 @@ drift.load('mw3u3wd637mg');
                             <span class="outer-circle circle-bg-3"></span>
                         </div>
                         <div class="widget__body">
-                            <h3 class="widget__heading h6">Active Users</h3>
+                            <h3 class="widget__heading h6">110K Active Users</h3>
                             <p>Create custom landing pages with Berlin that convert more visitors than any website.</p>
                         </div>
                     </div>
@@ -201,20 +229,20 @@ drift.load('mw3u3wd637mg');
             </div>
         </div>
     </div>
+
+
     <!-- Content Section -->
-    <div class="content-section bg-light-white section-padding">
+    <div class="content-section section-padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="content-img content-img-group-1">
-                        <div class="image-1 d-none d-md-block " data-aos="fade-left" data-aos-duration='1500' data-aos-once="true">
-                             <img src="./image/content-1-1.png" alt="">
+
+                        <div class="image-2 d-none d-md-block" data-aos="fade-right" dat data-aos-duration="1500" data-aos-once="true" align="center">
+                             <img src="./image/example.gif" alt="">
                         </div>
-                        <div class="image-2 image-overlay d-none d-md-block" data-aos="fade-right" dat data-aos-duration="1500" data-aos-once="true">
-                             <img src="./image/content-1-2.png" alt="">
-                        </div>
-                        <div class="image-mobile d-md-none">
-                             <img src="./image/content-1-mobile.png" alt="">
+                        <div class="image-mobile d-md-none" align="center">
+                             <img src="./image/example.gif" alt="" align="center">
                         </div>
                      </div>
                 </div>
@@ -319,13 +347,10 @@ drift.load('mw3u3wd637mg');
                         
                                     <div class="card-content">
                                         <ul class="pricing-list">
-                                            <li><span><i class="icon icon-check-2"></i></span>Unlimited Blocks</li>
-                                            <li><span><i class="icon icon-check-2"></i></span>5GB Clould Storages</li>
-                                            <li><span><i class="icon icon-check-2"></i></span>Custom Domain
-                                                Names</li>
-                                            <li><span><i class="icon icon-check-2"></i></span>Unlimited
-                                                Emails
-                                            </li>
+                                            <li><span><i class="icon icon-check-2"></i></span>Zero setup fees</li>
+                                            <li><span><i class="icon icon-check-2"></i></span>Low entry point cost</li>
+                                            <li><span><i class="icon icon-check-2"></i></span>Scalable pricing model</li>
+                                           
                                         </ul>
                                         <div class="card-btn">
                                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
