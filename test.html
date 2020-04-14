@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+
+
+
+<style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+	
+	.row {
+		background-color: #ececec;
+		background-color: rgba(233,230,230,0.79);
+		padding: 2% 0;
+	}
+</style>
+</head>
+<body>
+	<div class="row">
+        <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+            <section class="customer-logos slider">
+                <div class="slide"><img src="image/image1.png"></div>
+                <div class="slide"><img src="image/image2.png"></div>
+                <div class="slide"><img src="image/image3.png"></div>
+                <div class="slide"><img src="image/image4.png"></div>
+                <div class="slide"><img src="image/image5.png"></div>
+                <div class="slide"><img src="image/image6.png"></div>
+                <div class="slide"><img src="image/image7.png"></div>
+                <div class="slide"><img src="image/image8.png"></div>
+            </section>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</body>
+</html>

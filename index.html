@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Charpstar</title>
+  <link rel="stylesheet" type="text/css" href="./css/carousel.css" rel="stylesheet" type="text/css" >
   <!-- Plugins CSS -->
   <link href="https://cdn.jsdelivr.net/gh/charpstar/InPlace/InPlaceViewer.css" rel="stylesheet" type="text/css" media="all">
   <link rel="stylesheet" href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css">
@@ -52,6 +53,10 @@ drift.load('mw3u3wd637mg');
 
 <script type="module" src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/model-viewer.js"></script>
 <script nomodule src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/model-viewer-legacy-min.js"></script>
+<script src="./js/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script src="./plugins/jquery/jquery.min.js"></script>
+  <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+  <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
@@ -87,7 +92,7 @@ drift.load('mw3u3wd637mg');
 <!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Request A Demo</a>
 <!-- Calendly link widget end -->
 
                     </div>
@@ -149,8 +154,8 @@ drift.load('mw3u3wd637mg');
                         <h1 class="title h2">Visualise products from the comfort of your home!</h1>
                         <p>Increase your e-commerce conversions through 3D & Augmented Reality product visualisations.</p>
                         <div class="hero-btn">
-                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
-                            <span class="text--info">A Free 3D Visiualisation of a product of your choice<br>No credit card required</span>
+                            <a href="#feature-section"class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Find Out More</a>
+                            <span class="text--info">Request a demo and receive a FREE 3D model of one of your products.</span>
                         </div>
                     </div>
                 </div>
@@ -160,7 +165,7 @@ drift.load('mw3u3wd637mg');
                       <!-- <img src="./image/dashboard-analytics.png" alt="">  --> 
 
 <div class="model-viewer-wrapper">
-<model-viewer poster="https://charpstar.se/InPlace/Freedom/coco.jpg" src="https://charpstar.se/InPlace/Freedom/coco1.glb">
+<model-viewer reveal="auto" src="https://charpstar.se/InPlace/Freedom/coco1.glb">
 </model-viewer>
 </div>
 <script src="https://cdn.jsdelivr.net/gh/charpstar/InPlace/InPlaceViewer.js"></script>
@@ -187,6 +192,7 @@ drift.load('mw3u3wd637mg');
 
 
     <!-- Feature Section -->
+    <section id="feature-section">
     <div class="feature-section">
         <div class="container">
             <div class="row justify-content-center">
@@ -229,7 +235,7 @@ drift.load('mw3u3wd637mg');
             </div>
         </div>
     </div>
-
+</section>
 
     <!-- Content Section -->
     <div class="content-section section-padding">
@@ -250,14 +256,14 @@ drift.load('mw3u3wd637mg');
                     <div class="content-section-text">
                         <h2 class="title">Increase customer engagement.</h2>
                         <p>Allowing your customers to visualise products in their home increases engagement per product up to 5 times, increasing the likelyhood of a conversion as well as improving a products SEO.</p>
-                                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn-primary--opacity hvr-bounce-to-right"><i class="fas fa-cubes"></i>&ensp;Get A Free 3D Demo Model</a>
+                                            <a href="#content-section2" class="btn btn-primary--opacity hvr-bounce-to-right"><i class="fas fa-cubes"></i>&ensp;Try It For Yourself</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Content Section 2 -->
-    <div class="content-section section-padding">
+    <div class="content-section section-padding" id="content-section2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-7 col-lg-6 col-md-6 order-md-2">
@@ -277,7 +283,7 @@ drift.load('mw3u3wd637mg');
                     <div class="content-section-text">
                         <h2 class="title">Try it for yourself!</h2>
                         <p>Give it a go and try one of our AR models for yourself on an iOS or Android device.</p>
-                        <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-bounce-to-right"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
+                        <a href="#videosection" class="btn btn--primary hvr-bounce-to-right"><i class="fas fa-cubes"></i>&ensp;See More</a>
                     </div>
                 </div>
 
@@ -285,6 +291,7 @@ drift.load('mw3u3wd637mg');
         </div>
     </div>
     <!-- Video Section -->
+    <section id="videosection">
     <div class="section-padding video-bg">
         <div class="container">
             <div class="row justify-content-center">
@@ -299,7 +306,7 @@ drift.load('mw3u3wd637mg');
            
         </div>
     </div>
-
+</section>
     <!-- Pricing Section -->
     <div id="price-section" class="pricing-section section-padding-top mb--60 mb-md--80">
         <div class="pricing-section-bg">
@@ -350,10 +357,11 @@ drift.load('mw3u3wd637mg');
                                             <li><span><i class="icon icon-check-2"></i></span>Zero setup fees</li>
                                             <li><span><i class="icon icon-check-2"></i></span>Low entry point cost</li>
                                             <li><span><i class="icon icon-check-2"></i></span>Scalable pricing model</li>
+                                            <li><span><i class="icon icon-check-2"></i></span>First 3D model is free</li>
                                            
                                         </ul>
                                         <div class="card-btn">
-                                           <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
+                                           <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Request A Demo</a>
                                         </div>
                                         <p>No credit card required</p>
                                     </div>
@@ -368,27 +376,52 @@ drift.load('mw3u3wd637mg');
     </div>
 
     <!-- Brand Section -->
-    <div class="brand-section pb--60 pb-md--100">
+    <div class="pb--60 pb-md--100">
         <div class="container">
             <div class="brand-top-text">
-                <P>We are proud to have some big brands as our customer</P>
+                <P>We are proud to have some big brands as our customers</P>
             </div>
             <div class="row justify-content-center">
                 <div class="col-xl-10">
-                    <div class="brand-wrapper">
-                        <div class="single-brand">
-                            <img src="./image/hemtexlogo.png" alt="">
-                        </div>
-                        <div class="single-brand">
-                            <img src="./image/homefurnishingslogo.png" alt="">
-                        </div>
-                        <div class="single-brand">
-                            <img src="./image/cervesalogo.png" alt="">
-                        </div>
-                        <div class="single-brand">
-                            <img src="./image/chilli.png" alt="">
-                        </div>
-                    </div>
+<!--     <div class="row">
+        <div class="container">
+            <section class="customer-logos slider">
+                <div class="slide"><img src="image/image1.png"></div>
+                <div class="slide"><img src="image/image2.png"></div>
+                <div class="slide"><img src="image/image3.png"></div>
+                <div class="slide"><img src="image/image4.png"></div>
+                <div class="slide"><img src="image/image5.png"></div>
+                <div class="slide"><img src="image/image6.png"></div>
+                <div class="slide"><img src="image/image7.png"></div>
+                <div class="slide"><img src="image/image8.png"></div>
+            </section>
+        </div>
+    </div> -->
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                arrows: false,
+                dots: false,
+                    pauseOnHover: false,
+                    responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
                 </div>
             </div>
         </div>
@@ -401,7 +434,7 @@ drift.load('mw3u3wd637mg');
                 <div class="card testimonial-card-1">
                     <div class="card-body">
                     <span class="quote-icon">”</span>
-                    <p class="card-text">“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.”</p>
+                    <p class="card-text">“In the first phase we ran a small test to work out what would be the important KPI’s such as conversion, average order, session time and page views per visit. We have been pleasantly surprised, now the session time is 400% higher for visitors using AR and conversions are up by 60%!”</p>
                 </div>
                     <div class="card-footer">
                         <div class="client-card">
@@ -409,8 +442,8 @@ drift.load('mw3u3wd637mg');
                                 <img src="./image/testimonial1.png" alt="">
                             </div>
                             <div class="content">
-                                <h5 class="title">Cameron Anderson</h5>
-                                <span>From CrazyEggs.com</span>
+                                <h5 class="title">Simon Forslund</h5>
+                                <span>E-Commerce Manager, Bra sommarmöbler AB</span>
                             </div>
                         </div>
                     </div>
@@ -418,7 +451,7 @@ drift.load('mw3u3wd637mg');
                 <div class="card testimonial-card-1">
                     <div class="card-body">
                     <span class="quote-icon">”</span>
-                    <p class="card-text">“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”</p>
+                    <p class="card-text">“At SoffaDirekt, we use Augmented Reality to give our customers a better product feel and buying experience. With the help of AR technology, our customers can easily and simply place the furniture in its right environment. We see the tool as a natural step in our business, as we partly lack a physical store network - but also to add a service that indicates that we are at the forefront when it comes to technological development. In addition, we see a positive impact on both the conversion rate and a reduced number of returns. ”</p>
                 </div>
                 <div class="card-footer">
                     <div class="client-card">
@@ -426,8 +459,9 @@ drift.load('mw3u3wd637mg');
                             <img src="./image/testimonial2.png" alt="">
                         </div>
                         <div class="content">
-                            <h5 class="title">Cameron Anderson</h5>
-                            <span>From CrazyEggs.com</span>
+                            <h5 class="title">Stefan Söderlund
+                            </h5>
+                            <span>E-Commerce Manager, SoffaDirekt</span>
                         </div>
                     </div>
                 </div>
@@ -461,7 +495,7 @@ drift.load('mw3u3wd637mg');
                     <div class="cta-wrapper">
                         <h3 class="title mt--20" data-aos="fade-right" data-aos-duration='1500' data-aos-once="true">Your products visualised</h3>
                         <div class="button" data-aos="fade-left" data-aos-duration='1500' data-aos-once="true">
-                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Free 3D Demo Model</a>
+                            <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/charpstar/3d-model-consultation'});return false;" class="btn btn--primary hvr-shine"><i class="fas fa-cubes"></i>&ensp;Claim My Free 3D Demo Model</a>
                         </div>
                     </div>
                 </div>
@@ -478,9 +512,8 @@ drift.load('mw3u3wd637mg');
                 <div class="row align-items-center space-db--10">
                         <div class="col-lg-2 offset-lg-2 col-md-3 order-md-3 mb--10">
                         <ul class="footer-list social-list">
-                            <li><a href=""><i class="icon icon-logo-twitter"></i></a></li>
-                            <li><a href=""><i class="icon icon-logo-fb-simple"></i></a></li>
-                            <li><a href=""><i class="icon icon-google"></i></a></li>
+                            <li><a href="https://www.facebook.com/Charpstar-1877447518932819"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/charpstar/"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 offset-lg-1 col-md-5 col-sm-7 order-md-2 mb--10">
@@ -507,10 +540,6 @@ drift.load('mw3u3wd637mg');
         </div>
     </footer>
 </div>
-  <!-- Vendor JS-->
-  <script src="./plugins/jquery/jquery.min.js"></script>
-  <script src="./plugins/jquery/jquery-migrate.min.js"></script>
-  <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
 
   <!-- Plugins JS -->
   <script src="./plugins/fancybox-master/jquery.fancybox.min.js"></script>
